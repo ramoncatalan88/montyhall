@@ -268,8 +268,8 @@ play_game <- function( )
 #'   simulated game.
 #'
 #' @examples
-#'   play_n_games()
-#'   play_n_games(10)
+#'   results <- play_n_games(10)
+#'   head(results)
 #'
 #' @export
 play_n_games <- function( n=100 )
