@@ -1,0 +1,13 @@
+Package: montyhall
+Title: Simulate the Monty Hall Problem
+Version: 0.0.0.9000
+Authors@R:
+    person("Ramon", "Catalan", email = "Ramon.Catalan88@gmail.com", role = c("aut", "cre"))
+Description: Provides functions to simulate the Monty Hall problem and compare the outcomes of staying with or switching from an initial door selection.
+Depends:
+    dplyr
+License: use_mit_license(), `use_gpl3_license()` or friends to pick a license
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.0
+Roxygen: list(markdown = TRUE)
