@@ -24,7 +24,7 @@ number of games. It combines the results into a data frame and
 prints the proportion of wins and losses for each strategy.
 }
 \examples{
-  play_n_games()
-  play_n_games(10)
+  results <- play_n_games(10)
+  head(results)
 
 }
